@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 2px grey solid;
+}
+
+.header {
+  /* overflow: auto to clear the floating after the header */
+  overflow: auto;
+  margin: 0 300px;
+  width: 960px;
+}
+
+.header > h1 {
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background: #4aaaa5;
+  margin: 0;
+  height: 110px;
+  width: 300px;
+  /* to center the name vertically and horizantally in h1 */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 110px;
+}
+
+nav {
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+nav > a {
+  color: #9fadc1;
+  text-decoration: none;
+  padding: 0 15px;
+  border-right: 1px grey solid;
+  font-size: 20px;
+}
+
+nav > a:hover {
+  color: #4aaaa5;
+}
+
+#contact {
+  /* to remove the horizental line right to contact nav menue */
+  border-right: 0;
+}
+
+section {
+  position: fixed;
+  left: 0;
+  bottom: 80px;
+  top: 112px;
+  background-image: url("../images/grey-texture.jpg");
+  width: 100%;
+  overflow: auto;
+}
+
+footer {
+  position: fixed;
+  background: #666666;
+  color: #979c9b;
+  text-align: center;
+  height: 80px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 8px #4aaaa5 solid;
+}
+
+span {
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 6%;
+  right: 300px;
+  left: 300px;
+  width: 960px;
+  background-color: white;
+  margin-bottom: 50px;
+  color: #928d97;
+  border: 0.5px rgb(196, 196, 196) solid;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 38px;
+  overflow: auto;
+}
+
+.content-por {
+  position: absolute;
+  top: 6%;
+  right: 300px;
+  left: 300px;
+  width: 960px;
+  background-color: white;
+  margin-bottom: 50px;
+  height: 800px;
+  color: #928d97;
+  border: 0.5px rgb(196, 196, 196) solid;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 38px;
+}
+
+.content > h1 {
+  color: #4aaaa5;
+  border-bottom: 2px #e8e8e8 solid;
+  height: 100px;
+  margin: 0 28px;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.content-por > h1 {
+  color: #4aaaa5;
+  border-bottom: 2px #e8e8e8 solid;
+  height: 100px;
+  margin: 0 28px;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.fix {
+  margin: 0 28px;
+  overflow: auto;
+}
+
+#index-img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+#p1,
+#p2 {
+  margin: 0 28px;
+}
+
+#p2 {
+  margin-bottom: 20px;
+}
+
+#submit {
+  background: #4aaaa5;
+  color: white;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+#submit:hover {
+  background: #285c59;
+}
+
+.form {
+  margin: 0 28px;
+}
+
+.form > input,
+textarea {
+  width: 100%;
+}
+
+.form > textarea {
+  height: 100px;
+}
+
+.port-images > img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 200px;
+  /* overflow: auto; */
+}
+
+.port-images {
+  overflow: auto;
+}
+
+#por-img1 {
+  position: absolute;
+}
+
+#por-p1 {
+  position: absolute;
+  margin: 0;
+  top: 290px;
+  z-index: 3;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#por-img2 {
+  position: absolute;
+  top: 140px;
+  left: 243px;
+}
+
+#por-p2 {
+  position: absolute;
+  margin: 0;
+  top: 290px;
+  left: 243px;
+  z-index: 3;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#por-img3 {
+  position: absolute;
+  top: 354px;
+}
+
+#por-p3 {
+  position: absolute;
+  margin: 0;
+  top: 504px;
+  z-index: 3;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#por-img4 {
+  position: absolute;
+  top: 354px;
+  left: 243px;
+}
+
+#por-p4 {
+  position: absolute;
+  margin: 0;
+  top: 504px;
+  left: 243px;
+  z-index: 3;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+#por-img5 {
+  position: absolute;
+  top: 569px;
+}
+
+#por-p5 {
+  position: absolute;
+  margin: 0;
+  top: 719px;
+  z-index: 3;
+  background: #4aaaa5;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
