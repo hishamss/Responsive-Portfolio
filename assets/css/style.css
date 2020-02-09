@@ -384,6 +384,17 @@ textarea {
     width: 42%;
     top: 89%;
   }
+
+  .content {
+    right: 29.5px;
+    left: 29.5px;
+    width: auto;
+  }
+
+  #index-img {
+    width: auto;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
