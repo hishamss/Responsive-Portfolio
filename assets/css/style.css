@@ -285,7 +285,7 @@ textarea {
   height: 40px;
   text-align: center;
 }
-
+/* for screen size between 641px to 768px */
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .header {
     margin: 0 30px;
@@ -321,17 +321,11 @@ textarea {
   }
 
   .port-images img {
-    /* display: none; */
     margin: 0 10px 0 0;
     padding: 0;
     width: 47%;
     height: auto;
-    /* overflow: auto; */
   }
-
-  /* .port-images p {
-    display: none;
-  } */
 
   .fix.port-images {
     padding: 0 0 30px 0;
@@ -396,7 +390,7 @@ textarea {
     margin-bottom: 0;
   }
 }
-
+/* for screen size less than or equal 640px */
 @media screen and (max-width: 640px) {
   .header h1 {
     float: none;
@@ -563,5 +557,109 @@ textarea {
     width: 100%;
     height: auto;
     text-align: center;
+  }
+}
+/* for screen size more than 980px */
+@media screen and (min-width: 980px) {
+  .header {
+    margin: 0 30px;
+    padding: 0;
+    width: auto;
+  }
+
+  .header h1 {
+    float: left;
+    height: 100%;
+    width: auto;
+    padding: 0 20px;
+    font-size: 1.5em;
+  }
+
+  nav {
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    margin: 0;
+    font-size: 0.5em;
+  }
+
+  nav > a {
+    padding: 0 10px;
+  }
+
+  .content-por {
+    left: 29.5px;
+    width: auto;
+    height: auto;
+  }
+
+  .port-images img {
+    margin: 0 10px 0 0;
+    padding: 0;
+    width: 47%;
+    height: auto;
+  }
+
+  .fix.port-images {
+    padding: 0 0 30px 0;
+    margin: 0 28px;
+    overflow: auto;
+  }
+
+  #por-img1 {
+    position: static;
+  }
+
+  #por-img2 {
+    position: static;
+  }
+
+  #por-img3 {
+    position: static;
+  }
+  #por-img4 {
+    position: static;
+  }
+
+  #por-img5 {
+    position: static;
+  }
+
+  #por-p1 {
+    width: 42.8%;
+    top: 35%;
+  }
+
+  #por-p2 {
+    width: 42.8%;
+    left: 49.6%;
+    top: 35%;
+  }
+
+  #por-p3 {
+    width: 42.8%;
+    top: 62%;
+  }
+
+  #por-p4 {
+    width: 42.8%;
+    left: 49.6%;
+    top: 62%;
+  }
+
+  #por-p5 {
+    width: 42.8%;
+    top: 90%;
+  }
+
+  .content {
+    left: 29.5px;
+    width: auto;
+  }
+
+  #index-img {
+    width: auto;
+    margin-bottom: 0;
   }
 }
