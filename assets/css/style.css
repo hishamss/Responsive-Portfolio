@@ -78,9 +78,12 @@ footer {
   border-top: 8px #4aaaa5 solid;
 }
 
-span {
+#copyright {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .content {
